@@ -1,0 +1,120 @@
+<style>
+body{
+}
+label{
+    font-weight: bold;
+}
+p{
+    font-weight: bold;
+}
+p.intro{
+    color: blue;
+}
+ul{
+    display: flex;
+}
+table{
+    border: none;
+}
+tr{
+    height: 10px;
+    border: 1px solid black;
+}
+td{
+    border:none;
+}
+.container{
+    margin:0 auto;
+    width: 90%;
+    min-height: 300px;
+    background-color: none;
+}
+.container-form{
+    display: flex;
+    width: 90%;
+    min-height: 300px;    
+}
+.column-left{
+    flex:4.5;
+    background-color:rgb(242,242,242);   
+
+}
+.column-right{
+    flex: 1;
+    background-color:none;
+}
+.column-left-container{
+    margin-right: ;
+}
+.row-detail{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    min-height: 200px;
+}
+.column-billing-address{
+    flex: 1;
+    background-color:;
+    margin-left: 15px;
+}
+.text-box-size-left{
+    width: 95%;
+    height: 25px;
+    margin-bottom: 15px;
+}
+.text-box-size-right{
+    width: 98%;
+    height: 25px;
+    margin-bottom: 15px;
+}
+
+.state{
+    width: 50%;
+    height: 25px;
+    float: left;
+}
+.zip{
+    width: 48%;
+    float: right;
+    margin-left: ;
+}
+.state-size{
+    width: 90%;
+    height: 25px;
+}
+.zip-size{
+    width:90%;
+    height: 25px;
+}
+.cvv-size{
+    width:97%;
+    height: 25px;
+}
+.column-payment{
+    flex:1;
+    background-color:none;
+}
+.column-payment-container{
+    margin-right: 20px;
+}
+.row-submit{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.check-box{
+    width: 20px;
+    height: 20px;
+}
+.submit{
+    width: 100%;
+    background-color: rgb(85,85,85);
+    height: 35px;   
+}
+.column-right-container{
+    background-color: rgb(242,242,242);
+    margin-left: 20px;   
+}
+.blue{
+    color:blue
+}
+</style>

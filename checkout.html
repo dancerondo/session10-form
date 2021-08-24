@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="CSS/checkout.css" rel="stylesheet">
+    <title>checkout</title>
+    <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h2>Responsive Checkout Form</h2>
+        <form class="container-form">
+            <!-- COLUMN-LEFT  -->
+            <div class="column-left">
+                <div class="column-left-container">
+                    <div class="row-detail">
+                        <!-- COLUMN-BILLING-ADDRESS -->
+                        <div class="column-billing-address">
+                            <h3>Billing address</h3>
+                            <label for="fullname"><span class="iconify" data-icon="mdi:human-child"
+                                    data-width="15"></span>Full
+                                Name</label><br>
+                            <input class="text-box-size-left" type="text" id="fullname" name="fullname"
+                                value="John M.Doe"><br>
+                            <label for="email"><span class="iconify"
+                                    data-icon="ic:baseline-email"></span>Email</label><br>
+                            <input class="text-box-size-left" type="email" id="email" name="email"
+                                value="John@example.com"><br>
+                            <label for="address"><span class="iconify" data-icon="fa:address-card-o"
+                                    data-width="15"></span>Address</label><br>
+                            <input class="text-box-size-left" type="text" id="address" name="address"
+                                value="542 W15th Street"><br>
+                            <label for="city"><span class="iconify" data-icon="map:city-hall"
+                                    data-width="15"></span>City</label><br>
+                            <input class="text-box-size-left" type="text" id="city" name="city" value="New York"><br>
+                            <div class="state">
+                                <label for="state">State</label><br>
+                                <input class="state-size" type="text" id="state" name="state" value="NY">
+                            </div>
+                            <div class="zip">
+                                <label for="zip">Zip</label><br>
+                                <input class="zip-size" type="text" id="zip" name="zip" value="10001">
+                            </div>
+
+                        </div>
+                        <!-- COLUMN-PAYMENT  -->
+                        <div class="column-payment">
+                            <div class="column-payment-container">
+                                <h3>Payment</h3>
+                                <p>Accepted Cards</p>
+                                <ul style="list-style-type: none; display: flex;margin-left: -38px;margin-top: -12px;">
+                                    <li style="margin-right: 10px;"><span class="iconify" data-icon="brandico:visa"
+                                            style="color: blue;" data-width="26"></span></li>
+                                    <li style="margin-right: 10px;"><span class="iconify" data-icon="cib:cc-mastercard"
+                                            style="color: red;" data-width="24"></span></li>
+                                    <li style="margin-right: 10px;"><span class="iconify" data-icon="brandico:discover"
+                                            style="color: yellow;" data-width="26"></span></li>
+                                    <li style="margin-right: 10px;"><span class="iconify" data-icon="cib:cc-mastercard"
+                                            style="color: violet;" data-width="24"></span></li>
+                                </ul>
+                                <label style="margin-bottom: 30px;" for="namecard">Name On Card</label><br>
+                                <input class="text-box-size-right" type="text" id="namecard" name="namecard"
+                                    value="John More Doe"><br>
+                                <label for="creditnumber">Credit Card Number</label><br>
+                                <input class="text-box-size-right" type="text" id="creditnumber" name="creditnumber"
+                                    value="111-222-333-444"><br>
+                                <label for="expmonth">Exp Mont</label><br>
+                                <input class="text-box-size-right" type="text" id="expmonth" name="expmonth"
+                                    value="September"><br>
+                                <div class="state">
+                                    <label for="expyear">Exp Year</label><br>
+                                    <input class="state-size" type="text" id="expyear" name="expyear" value="2018">
+                                </div>
+                                <div class="zip">
+                                    <label for="cvv">CVV</label><br>
+                                    <input class="cvv-size" type="text" id="cvv" name="cvv" value="352">
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <div class="row-submit">
+                        <input class="check-box" type="checkbox" id="checkbox" name="checkbox" value="">
+                        <label for="checkbox">Shipping address same as billing</label>
+                        <!-- SUBMIT-BUTTON  -->
+                        <div>
+                            <input class=" submit" type="submit" id="submit" name="submit"
+                                value="Continue To Checkout">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- COLUMN-RIGHT  -->
+            <div class="column-right">
+                <div class="column-right-container">
+                    <table>
+                        <tr>
+                            <th>Cart</th>
+                            <th style="width: 65%;"></th>
+                            <th><span class="iconify" data-icon="fa-solid:shopping-cart" style="color: black;"
+                                    data-width="24" data-height="26">4</span></th>
+                        </tr>
+                        <tr>
+                            <td class="blue">Item1</td>
+                            <td style="width: 65%;"></td>
+                            <td>15$</td>
+                        </tr>
+                        <tr></tr>
+                        <tr>
+                            <td class="blue">Item2</td>
+                            <td style="width: 65%;"></td>
+                            <td>5$</td>
+                        </tr>
+                        <tr></tr>
+                        <tr>
+                            <td class="blue">Item3</td>
+                            <td style="width: 65%;"></td>
+                            <td>8$</td>
+                        </tr>
+                        <tr></tr>
+                        <tr style="border-bottom: 1px solid black;">
+                            <td class="blue">Item4</td>
+                            <td style="width: 65%;"></td>
+                            <td>2$</td>
+                        </tr>
+                        <tr></tr>
+                        <tr style="height: 40px;">
+                            <td><b>Total</b></td>
+                            <td style="width: 65%;"></td>
+                            <td>30$</td>
+                        </tr>
+                    </table>
+                </div>
+
+            </div>
+        </form>
+        <!-- END  -->
+    </div>
+</body>
+
+</html>
