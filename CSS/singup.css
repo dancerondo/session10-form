@@ -1,0 +1,56 @@
+<style>
+    body{
+
+    }
+    .container{
+        width: 40%;
+        margin:0 auto;
+    }
+    .line{
+        width: 97%;
+        height: 1px;
+        background-color:rgb(221, 168, 168);
+        margin-bottom: 30px;
+    }
+    p{
+        font-weight:500;
+    }
+    .enter-email{
+        width: 97%;
+        height:35px;
+        margin-bottom:30px;
+        background-color:rgb(241,241,241);
+    }
+    .label{
+        font-weight:bold;
+    }
+    .enter-password{
+        width:97%;
+        height:35px;
+        margin-bottom:30px;
+        background-color:rgb(241,241,241);
+    }
+    .enter-repeatpassword{
+        width:97%;
+        height:35px;
+        margin-bottom:20px;
+        background-color:rgb(241,241,241);
+    }
+    .check-box{
+        width: 20px;
+        height: 20px;
+    }
+    .cancel{
+        width: 50%;
+        height:50px;
+        background-color: rgb(247,113,104);
+        margin-top: 30px;
+    }
+    .signup{
+        width: 49%;
+        height:50px;
+        background-color: rgb(122,195,124);
+        margin-left: -4px;
+    }
+
+</style>
